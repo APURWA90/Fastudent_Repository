@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ADD PRODUCT">
+
+
+
+<test name="Add product Test">
+    <classes>
+        <class name="com.fastudent.addproduct.Vocational" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
+

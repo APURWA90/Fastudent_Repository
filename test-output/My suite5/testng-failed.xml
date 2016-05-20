@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite5]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="order placing  Test">
+    <classes>
+      <class name="com.fastudent.orderplacing.OrderPlace"/>
+    </classes>
+  </test> <!-- order placing  Test -->
+  <test name="order placing  Test(failed)">
+    <classes>
+      <class name="com.fastudent.orderplacing.OrderPlace">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="AddProduct"/>
+        </methods>
+      </class> <!-- com.fastudent.orderplacing.OrderPlace -->
+    </classes>
+  </test> <!-- order placing  Test(failed) -->
+</suite> <!-- Failed suite [My suite5] -->

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SHOP BY">
+
+
+
+<test name="shop by Test">
+    <classes>
+        <class name="com.fastudent.shopby.Homepage" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
+

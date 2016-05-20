@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SHOP BY]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="shop by Test(failed)">
+    <classes>
+      <class name="com.fastudent.shopby.Homepage">
+        <methods>
+          <include name="ShopByBrand"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.Homepage -->
+    </classes>
+  </test> <!-- shop by Test(failed) -->
+</suite> <!-- Failed suite [SHOP BY] -->

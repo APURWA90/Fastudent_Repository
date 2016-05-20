@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite3]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="login  Test">
+    <classes>
+      <class name="com.fastudent.login.Login"/>
+    </classes>
+  </test> <!-- login  Test -->
+  <test name="login  Test(failed)">
+    <classes>
+      <class name="com.fastudent.login.Login">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="LoginMethod"/>
+        </methods>
+      </class> <!-- com.fastudent.login.Login -->
+    </classes>
+  </test> <!-- login  Test(failed) -->
+</suite> <!-- Failed suite [My suite3] -->

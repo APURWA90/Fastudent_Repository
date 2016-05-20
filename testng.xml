@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Login.xml" />
+   <suite-file path="./Add Product.xml" />
+   <suite-file path="./Order Placing.xml" />
+   
+   <suite-file path="./Shop By.xml" />
+   
+   
+  </suite-files>
+</suite>

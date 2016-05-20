@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite2]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Add product Test">
+    <classes>
+      <class name="com.fastudent.addproduct.Vocational"/>
+    </classes>
+  </test> <!-- Add product Test -->
+</suite> <!-- Failed suite [My suite2] -->

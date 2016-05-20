@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORDER PLACING">
+
+
+
+<test name="order placing  Test">
+    <classes>
+        <class name="com.fastudent.orderplacing.OrderPlace" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
+
